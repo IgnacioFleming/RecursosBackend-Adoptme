@@ -1,0 +1,9 @@
+<div>Usuarios registrados al momento</div>
+<br /><br />
+{{#each users}}
+  <div>Nombre:{{this.first_name}}</div>
+  <div>Apellido:{{this.last_name}}</div>
+  <div>Email:{{this.email}}</div>
+  <div>Rol:{{this.role}}</div>
+  <br /><br />
+{{/each}}
